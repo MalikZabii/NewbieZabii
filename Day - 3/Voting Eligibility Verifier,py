@@ -1,0 +1,9 @@
+age = int (input ("Enter Your Age To check if you are eligible for voting:"))
+if(age<=18):
+ print("You'r eligible for voting!!")
+if (age<16):
+ print("You are not eligible for voting")
+elif(age>=16):
+ print("You are eligible for voting with Special permission")
+else:
+ print("You are eligible for voting!!")
