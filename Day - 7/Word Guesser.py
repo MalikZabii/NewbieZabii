@@ -19,4 +19,3 @@ while "_" in display:
     print(" ".join(display))
 
 print("Congratulations! You've guessed the word:", chosen_word)
-
