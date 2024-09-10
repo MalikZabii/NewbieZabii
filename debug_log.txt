@@ -1,0 +1,11 @@
+Exception type: ZeroDivisionError
+Exception message: division by zero
+Traceback:
+Traceback (most recent call last):
+  File "c:\Users\Administrator\OneDrive\Desktop\Python bootcamp\Day - 13\Debugging.py", line 8, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Administrator\OneDrive\Desktop\Python bootcamp\Day - 13\Debugging.py", line 28, in example_function
+    return 10 / x
+           ~~~^~~
+ZeroDivisionError: division by zero
